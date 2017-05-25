@@ -1,0 +1,189 @@
+.blackCon{
+	background-color: black;
+	width: 700px;
+	/*min-height: 40vh;*/
+	padding: 10px;
+	box-sizing: border-box;
+}
+.borderBox{
+	border-left: 3px solid white;
+}
+.grey{
+	background-color: grey;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	float: left;
+	box-sizing: border-box;
+}
+.whiteCon{
+	width: 150px;
+	height: 150px;
+	padding: 10px 10px 50px 10px;
+	border:1px solid white;
+	text-align: center;
+	float: left;
+	margin: 10px;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+h1, h2, p, h5{
+	color: white;
+}
+.left{
+	width: 20%;
+	float: left;
+}
+.right{
+	width: 77%;
+	float: right;
+}
+.marginleft{
+	margin: 10px 10px 10px 0;
+}
+.smallGrey{
+	background-color: grey;
+	width: 50px;
+	height: 50px;
+	float: left;
+	/*box-sizing: border-box;*/
+}
+.rightright{
+	width: 92%;
+	/*position: relative;*/
+	float: right;
+}
+.leftleft{
+	width: 7%;
+	float: left;
+}
+textarea{
+	width: 100%;
+	height: 100px;
+}
+.input{
+	float: right;
+}
+.rightright2{
+	padding: 0px;
+	width: 92%;
+	position: relative;
+	float: right;
+}
+.rightright3{
+	padding: 0px;
+	width: 92%;
+	position: relative;
+	float: right;
+	border-left: 1px solid white;
+}
+u{
+	color: blue;
+	padding: 10px;
+}
+.medGrey{
+	background-color: grey;
+	height: 100px;
+	width: 40%;
+	float: left;
+	box-sizing: border-box;
+}
+.fRight{
+	float: right;
+	width: 59%;
+}
+.fRight p {
+	margin: 0px;
+}
+.fLeft p{
+	margin: 0;
+}
+
+.blackCon2{
+	background-color: black;
+	width: 500px;
+	/*min-height: 40vh;*/
+	padding: 10px;
+	box-sizing: border-box;
+}
+.fLeft{
+	float: left;
+	width: 59%;
+}
+.medGrey2{
+	background-color: grey;
+	height: 100px;
+	width: 40%;
+	float: right;
+	box-sizing: border-box;
+}
+.grey2{
+	background-color: grey;
+	width: 150px;
+	height: 150px;
+	margin: 0px 5px 5px 0px;
+	float: right;
+	box-sizing: border-box;
+}
+.leftSide{
+	width: 30%;
+	float: left;
+}
+.rightSide{
+	width: 69%;
+	float: right;
+}
+.blackCon3{
+	background-color: black;
+	width: 1000px;
+	/*min-height: 40vh;*/
+	padding: 10px;
+	box-sizing: border-box;
+}
+.grey3{
+	background-color: grey;
+	width: 150px;
+	height: 100px;
+}
+.whiteCon2{
+	width: 150px;
+	padding: 5px;
+	margin: 10px;
+	float: left;
+	border: 1px solid white;
+	text-align: center;
+}
+.Lside{
+	float: left;
+	width: 60%;
+}
+.largeGrey{
+	width: 100%;
+	height: 200px;
+	background-color: grey;
+	float: left;
+}
+li{
+	color: white;
+	display: inline-block;
+	background-color: grey;
+	margin: 10px;
+}
+.juanText p{
+	margin: 0;
+}
+.Rside{
+	width: 40%;
+	float: right;
+}
+.grey4{
+	height: 100px;
+	width: 150px;
+	margin-right: 5px;
+	background-color: grey;
+	float: left;
+}

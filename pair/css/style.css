@@ -1,0 +1,222 @@
+body {
+	margin: 0;
+	color: white;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+nav {
+	width: 200px;
+	height: 100vh;
+	background-color: #331E38;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+li a:hover{
+	color: yellow;
+	font-size: 2em;
+	border-bottom: hidden;
+}
+li:hover{
+	border-bottom: hidden;
+}
+a{
+	color: white;
+	text-decoration: none;
+}	
+
+nav > center > img {
+	width: 130px;
+	margin: 50px 0;
+}
+nav > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+nav > ul > li {
+	border-bottom:	1px solid white;
+	line-height: 3em;
+	margin: 0 20%;	
+}
+#Home {
+	background-image: url(../images/home.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    margin: 0 0 0 200px	;
+    position: relative;
+	}
+
+#Home > div {
+	border: 5px solid white;
+	padding: 40px;
+	margin: 20%;
+	position: absolute;
+}
+
+center > span > h1 {
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+}
+#about {
+	background:linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ), url(../images/about.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: auto;
+    margin: 0 0 0 200px	;
+    position: relative;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#about > div {
+	width: 500px;
+	position: absolute;
+	float: left;
+}
+#about > div p{
+	text-align: left;
+	padding-left: 30px;
+}
+#services{
+	background-color: #423d2d;
+	background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: auto;
+    margin: 0 0 0 200px	;
+    position: relative; 
+}
+#services > div > span{
+	color: #9C9681; 
+	font-size: 4em;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.image1 > figure > img {
+	width: 50px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.image1 {
+	float: left;
+	width: 30%;
+	margin: 30px 10px;
+}
+
+.image1 > figure > figcaption{
+	float: right;
+	width: 78%;
+	vertical-align: middle;
+	font-size: 1.5em;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: salmon;
+	text-transform: capitalize;
+}
+.image1 > figure > p {
+	font-size: 0.8em;
+	line-height: 1.2em;
+	float: right;
+	width: 80%;
+}
+#project{
+
+    width: auto;
+    margin: 0 0 0 200px	;
+    position: relative;
+}
+#project2 > h1{
+	font-size: 4em;
+	margin: 0 0 10px 0;
+}
+#project2{
+	background-image: url(../images/plant.jpg);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    min-height: 300px;
+    padding: 30px;
+}
+#project3{
+	background-color: #B5B4C7 ;
+    width: auto;
+    min-height: 400px;
+    padding: 30px;
+}
+.image2 > figure > figcaption > span {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #585671;
+	margin: 10px 0;
+	text-transform: capitalize;
+} 
+.image2 > figure > figcaption > p{
+	font-size: 0.8em;
+	line-height: 1.2em;
+	margin: 10px 0;
+}
+.image2 {
+	width: 22%;
+	float: left;
+}
+.image2 > figure > img {
+	height: auto;
+	width: 100%;
+	border-radius: 3px;
+}
+.image2 > figure {
+	margin: 0 10px;
+}
+#contact{
+	background-image: url(../images/flower.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: auto;
+    margin: 0 0 0 200px	;
+    position: relative;
+    padding-right: 50px;
+    text-align: right;
+}
+#contact > span {
+	text-transform: uppercase;
+	font-size: 4em;
+	margin-bottom: 10px;
+}
+footer {
+	margin: 0 0 0 200px	;
+	background-color: #C2095A;
+	font-size: 0.8em;
+	padding: 30px;
+}
+
+footer > div > ul > li > img {
+	width: 20px;
+	margin: 0 5px 0 0;
+}
+footer > div > ul {
+	list-style-type: none;
+	float: right;
+}
+footer > div > ul > li {
+	display: inline-block;
+}
+#footerText{
+	float: left;
+	margin-top: 15px;
+}
