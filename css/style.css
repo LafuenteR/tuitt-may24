@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+}
+nav{
+	width: 200px;
+	height: 100%;
+	position: fixed;
+	background-color: #331E38;
+	float: left;
+	top: 0;
+}
+ul{
+	/*border-bottom: 1px solid white;*/
+}
+li{
+	list-style-type: none;
+	margin: auto;
+	line-height: 3em;
+}
+img {
+	width: 130px;
+	margin: 50px 0;
+}
+#home {
+	background-image: url("../images/home.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 0 0 0 200px;
+	height: 100vh;
+	top: 0;
+
+}
+.clear:after {
+	display: block;
+	content: "";
+	clear: both;
+}
